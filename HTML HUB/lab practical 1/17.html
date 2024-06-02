@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        input, button {
+            margin: 5px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Simple Calculator</h2>
+
+    <label for="num1">Enter Number 1:</label>
+    <input type="number" id="num1">
+
+    <label for="num2">Enter Number 2:</label>
+    <input type="number" id="num2">
+
+    <button onclick="divideNumbers()">Divide</button>
+
+    <p id="result">Result will be displayed here.</p>
+
+    <script>
+        function divideNumbers() {
+            // Get the input values
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+
+            // Check if the second number is not zero
+            if (num2 !== 0) {
+                // Perform division
+                var result = num1 / num2;
+
+                // Display the result
+                document.getElementById("result").innerText = "Result: " + result;
+            } else {
+                // Display an error message if attempting to divide by zero
+                document.getElementById("result").innerText = "Error: Cannot divide by zero!";
+            }
+        }
+    </script>
+
+</body>
+</html>

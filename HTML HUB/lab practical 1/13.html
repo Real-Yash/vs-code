@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        input, button {
+            margin: 5px;
+            padding: 8px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Form Validation</h2>
+
+    <form id="myForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName">
+
+        <br>
+
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber">
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br>
+
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <div id="errorMessages" class="error"></div>
+
+    <script>
+        function validateForm() {
+            var fullName = document.getElementById("fullName").value;
+            var mobileNumber = document.getElementById("mobileNumber").value;
+            var email = document.getElementById("email").value;
+            var dob = document.getElementById("dob").value;
+
+            var errorMessage = "";
+
+            // Check if full name is empty
+            if (fullName.trim() === "") {
+                errorMessage += "Full Name is required.<br>";
+            }
+
+            // Check if mobile number is empty or not numeric
+            if (mobileNumber.trim() === "" || isNaN(mobileNumber)) {
+                errorMessage += "Mobile Number is required and must be numeric.<br>";
+            }
+
+            // Check if email is empty or not a valid email format
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email.trim() === "" || !emailPattern.test(email)) {
+                errorMessage += "Email is required and must be a valid format.<br>";
+            }
+
+            // Check if date of birth is empty
+            if (dob.trim() === "") {
+                errorMessage += "Date of Birth is required.<br>";
+            }
+
+            // Display error messages or submit the form
+            var errorMessagesDiv = document.getElementById("errorMessages");
+            if (errorMessage !== "") {
+                errorMessagesDiv.innerHTML = errorMessage;
+            } else {
+                errorMessagesDiv.innerHTML = ""; // Clear previous error messages
+                alert("Form submitted successfully!");
+                document.getElementById("myForm").reset(); // Reset the form after submission
+            }
+        }
+    </script>
+
+</body>
+</html>

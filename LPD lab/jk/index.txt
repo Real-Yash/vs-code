@@ -1,0 +1,69 @@
+LDP PROGRAM LIST
+Unit - 1
+      1. malloc - display numbers given by the user.
+      2. Calloc - display numbers given by the user.
+      3. Realloc - display numbers given bythe user(5), then add 5 more numbers in the series.
+      4. Sum - display the sum of numbers given by the user.
+      5. write a c program showing size of memory allocated using malloc in calculating average of 5 students.
+      6. write a C program to display name given by the user and also show memory size allocated.
+      7. Write a C program To Copy one string from one location to another Using DMA.
+      8. Write a C Program to calculate string length using DMA.
+      9. WAP using a single pointer AND 1D array with pointer arithmetic
+      10. WAP using an array of pointers.
+      11. WAP Using pointer to pointer
+      12. WAP using double pointer and one malloc call.
+      13. WAP Using pointer to variable length array.
+      14. WAP TO display polynomial using implicit function(single variable polynomial)
+      15. WAP TO display polynomial using explicit function(single variable polynomial)
+      16. WAP to ADD single variable POLYNOMIALS using any one of the functions(IMPLICIT OR EXPLICIT)
+      17. WAP to SUBTRACT single variable Polynomials using any one of the functions(IMPLICIT OR EXPLICIT)
+      18. WAP to MULTIPLICATION single variable polynomials using any one of the functions (IMPLICIT OR EXPLICIT)
+      19. WAP to display multivariable polynomial.
+      20. WAP to display addition of two multivariable polynomials.
+      21. WAP to display Subtraction of two multivariable polynomials.
+      22. WAP to display scalar multiplication of multivariable polynomial.
+Unit - 2
+      1. WAP to find saddle point Of matrix
+      2. WAP to find Simple transpose of triplet matrix form
+      3. WAP to find fast transpose of triplet matrix form
+      4. WAP to display the Magic square of odd order
+      5. WAP to display the Magic square of even order
+Unit - 3
+      1.WAP in C for bubble sorting
+      2.WAP in C for Insertion sorting
+      3.WAP in C for Selection Sorting
+      4.WAP in C for Quick Sorting
+      5.WAP in C for merge Sorting
+      6.WAP in C for Radix sorting
+Unit - 4
+      Searching :-
+      1.WAP in C for Linear searching
+      2..WAP in C for Binary searching
+      3..WAP in C for Ternery searching
+      4..WAP in C for Exponential searching
+      5..WAP in C for Interpolation searching
+      6..WAP in C for Fibonnaci searching
+Unit - 5
+      Hashing:-
+      1.division hashing.
+      2.folding hashing.
+      3.Mid square hashing 
+
+      1.WAP in C for Hashing
+      2.WAP in C for Collision resolution techniques
+      3.WAP in C for Open addressing
+      4.WAP in C for Linear probing
+      5.WAP in C for Quadratic probing
+      6.WAP in C for Double hashing
+      7.WAP in C for Chaining
+      8.WAP in C for Separate chaining
+      9.WAP in C for Coalesced chaining
+      10.WAP in C for Linear chaining
+      11.WAP in C for Quadratic chaining
+      12.WAP in C for Double hashing chaining
+      13.WAP in C for Mid square hashing
+      14.WAP in C for Folding hashing
+      15.WAP in C for Division hashing
+      16.WAP in C for Rehashing
+      17.WAP in C for Extendible hashing
+      18.WAP in C for Linear hashing

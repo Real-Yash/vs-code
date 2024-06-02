@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Image Replacement</title>
+    <style>
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Click the button to replace text with an image:</h2>
+
+    <p id="output">This is the initial text.</p>
+
+    <button onclick="replaceTextWithImage()">Replace with Image</button>
+
+    <script>
+        function replaceTextWithImage() {
+            // Create an image element
+            var imageElement = document.createElement("img");
+
+            // Set the source (replace 'your-image-url.jpg' with the actual image URL)
+            imageElement.src = 'your-image-url.jpg';
+
+            // Set the alt text for accessibility
+            imageElement.alt = 'Replaced Image';
+
+            // Replace the text with the image
+            document.getElementById("output").innerHTML = "";
+            document.getElementById("output").appendChild(imageElement);
+        }
+    </script>
+
+</body>
+</html>

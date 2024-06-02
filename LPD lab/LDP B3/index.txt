@@ -1,0 +1,47 @@
+**Dynamic Memory Allocation **
+
+1 Implementation of single  dimensional array using DMA
+
+2. Implementation of two dimensional array using DMA
+
+3. Implementation of any database using array of structures using DMA
+
+**polynimial **
+
+4. Implementation of single variable using array and perform various operations on it such as addition, multiplicationand evaluation
+
+5. Implementation of  milti variable polynomials using array and perform various oprations on it such as addition, multiplication and evaluation
+
+**matrix**
+6. Creation of an odd order magic square matrixand display it.
+
+7. Convert a normal matrix into its equivalent sparse matrix and perform addition of two such sparse matrices. 
+
+8. Accept a sparse matrix from user and perform simple transpose, fast transpose on it. 
+
+9. saddle point in a matrix
+
+
+** searching **
+10 Implementation of various sorting methods onnumeric and alphabetic strings data. 
+10.1 Bubble sort
+10.2 insertion sort
+10.3 selection sort
+10.4 quick sort
+10.5 merge sort
+10.6 radix (bucket)sort 
+
+** sorting **
+11 Implementation of various searchingmethods on numeric and alphabetic strings data. 
+11.1 Linear search
+11.2 Binary search
+11.3 Fibonacci search
+11.4 Interpolation search
+11.5 ternury search
+11.6 exponential search
+
+** hashing **
+
+12 Implementation of a various hash functions. 
+
+13 Implementation of Linear Probing method ofcollision resolution
