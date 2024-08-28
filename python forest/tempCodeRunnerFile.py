@@ -1,1 +1,1 @@
-:
+yieldprint ('the value of' , a ,'and' , b, 'is' , add(a,b))
